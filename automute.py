@@ -3,7 +3,7 @@ import schedule
 import time
 
 bot_token = "INSERT_BOT_TOKEN"
-chat_id = *INSERT_CHAT_ID*
+chat_id = 0 #INSERT_CHAT_ID
 
 def set_restrictions():
     payload = {"chat_id": chat_id, "permissions": {"can_send_messages": False,
